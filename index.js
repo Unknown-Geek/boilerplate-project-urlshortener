@@ -1,5 +1,4 @@
 require('dotenv').config();
-console.log(process.env.MONGO_URI); // Add this line to check the value
 const express = require('express');
 const cors = require('cors');
 const dns = require("dns");
